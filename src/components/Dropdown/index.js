@@ -5,15 +5,15 @@ import * as SC from "@/styles/dropdown/Dropdown.style.js";
 const Dropdown = ({
   items = [],
   idx = 0,
-  onChange,
+  onChange = () => {},
   placeholder = "",
-  keyName,
-  inputRef,
-  customWidth,
+  keyName = null,
+  inputRef = null,
+  customWidth = null,
   isInitial = true,
   customStyle = {},
   isErr = false,
-  style,
+  style = {},
   ...props
 }) => {
   const ref = useRef(null);

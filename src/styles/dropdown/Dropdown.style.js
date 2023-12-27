@@ -1,8 +1,7 @@
 import styled from "@emotion/styled";
+import { css, keyframes } from "@emotion/react";
+import { FlexSC } from "@/styles/global";
 import { color, palette } from "@/styles/values/color";
-import { css } from "@emotion/react";
-import { FlexSC } from "../../global";
-import { keyframes } from "@emotion/react";
 import { utils } from "@/styles/values/util";
 
 export const open = keyframes`
