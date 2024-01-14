@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "keinn51-package-deploy-test",
+  "version": "0.0.0",
+  "description": "Test for package deploy",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
