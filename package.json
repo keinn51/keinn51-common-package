@@ -1,5 +1,5 @@
 {
-  "name": "keinn51-package-deploy-test",
+  "name": "keinn51-common-package",
   "version": "0.0.0",
   "description": "Test for package deploy",
   "scripts": {
