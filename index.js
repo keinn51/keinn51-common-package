@@ -1,10 +1,10 @@
-import {
+const {
     add,
     stringToBase64,
     stringToHex,
     hexToString,
     base64ToString,
-} from '@/functions/common';
+} = require('./src/functions/common');
 
 module.exports = {
     add,
